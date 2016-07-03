@@ -50,6 +50,11 @@
   }
 }
 
+// for searchentry
+.input-group-btn:not(:first-child):not(:last-child) > .btn {
+  @include border-radius(0);
+}
+
 .input-group-addon,
 .input-group-btn {
   @if $enable-flex {
