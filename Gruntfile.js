@@ -404,6 +404,9 @@ module.exports = function (grunt) {
     exec: {
       npmUpdate: {
         command: 'npm update'
+      },
+      s3upload: {
+        command: 'aws s3 cp dist/ s3://baloneymeter/web/dist --recursive --exclude "*" --include "*.css" --include "*.js" --include "*.map"'
       }
     },
 
