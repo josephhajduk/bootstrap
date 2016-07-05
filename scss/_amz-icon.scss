@@ -1,0 +1,103 @@
+
+.amz-icon {
+  background-image: url("/AmazonUIBaseCSSsprites.png");
+  -webkit-background-size: 400px 650px;
+  background-size: 400px 650px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.bln-icon {
+  -webkit-filter: hue-rotate(130deg); /* Chrome, Safari, Opera */
+  filter: hue-rotate(130deg);
+  background-image: url("/AmazonUIBaseCSSsprites.png");
+  -webkit-background-size: 400px 650px;
+  background-size: 400px 650px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.amz-prime-lg {
+  position: relative;
+  top: 6px;
+  background-position: -206px -632px;
+  width: 90px;
+  height: 20px;
+}
+
+.primesmall {
+  background-image: url("/AmazonUIBaseCSSsprites.png");
+  -webkit-background-size: 400px 650px;
+  background-size: 400px 650px;
+  background-repeat: no-repeat;
+  display: block;
+  width: 52px;
+  height: 16px;
+  background-position: -5px -489px;
+  vertical-align: baseline
+}
+
+.amz-logo {
+  background-position: -2px -125px;
+  width: 110px;
+  height: 40px;
+}
+
+.amz-single-star {
+  background-position: -5px -368px;
+  width: 17px;
+  height: 17px;
+  position: relative;
+  top: 1px;
+  vertical-align: text-top;
+}
+
+.amz-star {
+  width: 80px;
+  height: 18px;
+  position: relative;
+  vertical-align: text-top;
+}
+
+.amz-star-5 {
+  background-position: -5px -368px
+}
+
+.amz-star-4 {
+  background-position: -21px -368px
+}
+
+.amz-star-3 {
+  background-position: -37px -368px
+}
+
+.amz-star-2 {
+  background-position: -53px -368px
+}
+
+.amz-star-1 {
+  background-position: -69px -368px
+}
+
+.amz-star-0 {
+  background-position: -85px -368px
+}
+
+.amz-star-4-5 {
+  background-position: -175px -368px
+}
+
+.amz-star-3-5 {
+  background-position: -191px -368px
+}
+
+.amz-star-2-5 {
+  background-position: -207px -368px
+}
+
+.amz-star-1-5 {
+  background-position: -223px -368px
+}
+
+.amz-star-0-5 {
+  background-position: -239px -368px
+}

@@ -9,4 +9,5 @@ group :development, :test do
   gem 'jekyll-sitemap', '~> 0.9.0'
   gem 'sass', '~> 3.4.19'
   gem 'scss_lint', '~> 0.43'
+  gem 'font-awesome-sass'
 end

@@ -1,0 +1,65 @@
+.bln-sprite {
+  background-image: url("/balognasprites.png");
+  -webkit-background-size: 80px 180px;
+  background-size: 80px 180px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: relative;
+  vertical-align: text-top;
+  width: 80px;
+  height: 16px;
+}
+
+.bln-scr-10, .bln-scr-9 {
+  background-position: 0px 0px
+}
+
+.bln-scr-8 {
+  background-position: 0px -16px
+}
+
+.bln-scr-7 {
+  background-position: 0px -32px
+}
+
+.bln-scr-6 {
+  background-position: 0px -48px
+}
+
+.bln-scr-5 {
+  background-position: 0px -64px
+}
+
+.bln-scr-4 {
+  background-position: 0px -80px
+}
+
+.bln-scr-3 {
+  background-position: 0px -96px
+}
+
+.bln-scr-2 {
+  background-position: 0px -112px
+}
+
+.bln-scr-1 {
+  background-position: 0px -128px
+}
+
+.bln-scr-0 {
+  background-position: 0px -144px;
+  width: 0px;
+}
+
+.single-bln {
+  background-image: url("/balognasprites.png");
+  -webkit-background-size: 80px 180px;
+  background-size: 80px 180px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: relative;
+  vertical-align: text-top;
+  width: 20px;
+  height: 16px;
+  background-position: 0px -128px;
+}
