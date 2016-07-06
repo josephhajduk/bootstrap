@@ -1,0 +1,24 @@
+//searchButtonText
+
+#searchhide {
+  padding-bottom: 1em;
+  padding-right: 1em;
+}
+
+@media (min-width: $bk1) {
+  #searchhide {
+    display:none;
+  }
+}
+
+@media (max-width: $bk1) {
+  .sortfilter-hide {
+    display:none !important;
+  }
+}
+
+@media (max-width: $bk2) {
+  .searchButtonText {
+    display:none;
+  }
+}

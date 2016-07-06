@@ -6622,7 +6622,7 @@ a.bg-danger:focus, a.bg-danger:hover {
   padding-left: .9375rem;
 }
 
-@media (min-width: 75em) {
+@media (min-width: 67em) {
   .col-item-rows {
     width: 75%;
   }
@@ -6636,7 +6636,7 @@ a.bg-danger:focus, a.bg-danger:hover {
   padding-left: .9375rem;
 }
 
-@media (max-width: 30em) {
+@media (max-width: 37em) {
   .col-sort-filter {
     -webkit-column-count: 1;
        -moz-column-count: 1;
@@ -6647,7 +6647,7 @@ a.bg-danger:focus, a.bg-danger:hover {
   }
 }
 
-@media (max-width: 60em) and (min-width: 30em) {
+@media (max-width: 52em) and (min-width: 37em) {
   .col-sort-filter {
     -webkit-column-count: 2;
        -moz-column-count: 2;
@@ -6658,7 +6658,7 @@ a.bg-danger:focus, a.bg-danger:hover {
   }
 }
 
-@media (max-width: 75em) and (min-width: 60em) {
+@media (max-width: 67em) and (min-width: 52em) {
   .col-sort-filter {
     -webkit-column-count: 3;
        -moz-column-count: 3;
@@ -6669,13 +6669,13 @@ a.bg-danger:focus, a.bg-danger:hover {
   }
 }
 
-@media (min-width: 75em) {
+@media (min-width: 67em) {
   .col-sort-filter {
     width: 25%;
   }
 }
 
-@media (max-width: 75em) {
+@media (max-width: 67em) {
   .filter-holder {
     display: inline;
   }
@@ -6685,6 +6685,29 @@ a.bg-danger:focus, a.bg-danger:hover {
   .col-sort-filter .list-group {
     display: inline-block;
     width: 100%;
+  }
+}
+
+#searchhide {
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+
+@media (min-width: 67em) {
+  #searchhide {
+    display: none;
+  }
+}
+
+@media (max-width: 67em) {
+  .sortfilter-hide {
+    display: none !important;
+  }
+}
+
+@media (max-width: 52em) {
+  .searchButtonText {
+    display: none;
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
