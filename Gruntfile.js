@@ -407,6 +407,9 @@ module.exports = function (grunt) {
       },
       s3upload: {
         command: 'aws s3 cp dist/ s3://baloneymeter/web/ --recursive --exclude "*" --include "*.css" --include "*.js" --include "*.map"'
+      },
+      s3uploadFont: {
+        command: 'aws s3 cp font-awesome/fonts/ s3://baloneymeter/web/fonts --recursive --exclude "*" --include "*.otf" --include "*.eot" --include "*.svg" --include "*.ttf" --include "*.woff" --include "*.woff2"'
       }
     },
 
